@@ -9,7 +9,7 @@ It is a Content Management System (CMS) of showcasing different kinds of Asian a
 - [***graphQL***](https://graphql.org) : a query language for API
 - [***hyGraph***](https://hygraph.com) : GraphQL-Native Federated Content Platform. 
 - [***TailwindCSS***](https://tailwindcss.com)
-
+- [***Sass***](https://sass-lang.com)
 
 ## Setup
 Run `npx create-next-app -e with-tailwindcss ./` to initialize the empty folder.
