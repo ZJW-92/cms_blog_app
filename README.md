@@ -1,6 +1,7 @@
-# CMS Blog App
+# Optimal Recipe Blog
 
-It is a Content Management System (CMS) with featured and recent posts, categories. full markdown articles, author information, comments, and comments, 
+# Demo at 👉
+It is a Content Management System (CMS) of showcasing different kinds of Asian and Swedish cuisine with full markdown recipes, author information and comments down blow.
 
 ## Tech Stack
 - [***React.js***](https://reactjs.org)
@@ -10,9 +11,8 @@ It is a Content Management System (CMS) with featured and recent posts, categori
 - [***TailwindCSS***](https://tailwindcss.com)
 
 
-
 ## Setup
-Run `npx create-next-app -e with-tailwindcss ./` to initialize the empty folder.´
+Run `npx create-next-app -e with-tailwindcss ./` to initialize the empty folder.
 <br>
 Run `npm install graphql graphql-request html-react-parser moment react-multi-carousel sass` to install other dependencies.
 <br>
