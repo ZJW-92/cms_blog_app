@@ -7,12 +7,13 @@
   },
   "engineStrict": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": " next dev",
     "build": "next build",
-    "start": "NODE_OPTIONS=--openssl-legacy-provider react-native start",
+    "start": "react-scripts --openssl-legacy-provider start",
     "lint": "next lint"
   },
   "dependencies": {
+    "cross-env": "^7.0.3",
     "graphql": "^15.6.1",
     "graphql-request": "^3.5.0",
     "html-react-parser": "^1.4.0",
