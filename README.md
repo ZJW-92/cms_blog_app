@@ -1,6 +1,5 @@
-# Optimal Recipe Blog
+# Demo 👉 [Optimal Recipe Blog](optimal-recipe-blog.vercel.app)
 
-# Demo at 👉
 It is a Content Management System (CMS) of showcasing different kinds of Asian and Swedish cuisine with full markdown recipes, author information and comments down blow.
 
 ## Tech Stack
@@ -9,7 +8,7 @@ It is a Content Management System (CMS) of showcasing different kinds of Asian a
 - [***graphQL***](https://graphql.org) : a query language for API
 - [***hyGraph***](https://hygraph.com) : GraphQL-Native Federated Content Platform. 
 - [***TailwindCSS***](https://tailwindcss.com)
-- [***Sass***](https://sass-lang.com)
+- [***Scss***](https://sass-lang.com)
 
 ## Setup
 Run `npx create-next-app -e with-tailwindcss ./` to initialize the empty folder.
