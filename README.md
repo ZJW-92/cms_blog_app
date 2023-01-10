@@ -1,5 +1,8 @@
 # Demo 👉 [Optimal Recipe Blog](https://cms-blog-app-zjw-92.vercel.app/)
 
+![Vercel](https://vercelbadge.vercel.app/api/ZJW-92/cms_blog_app)
+
+
 It is a Content Management System (CMS) of showcasing different kinds of Asian and Swedish cuisine with full markdown recipes, author information and comments down blow.
 
 ## Tech Stack
