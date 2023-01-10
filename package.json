@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider react-native start",
     "lint": "next lint"
   },
   "dependencies": {
