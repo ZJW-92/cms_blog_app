@@ -4,7 +4,6 @@ import 'react-multi-carousel/lib/styles.css';
 import { FeaturedPostCard } from '../components';
 import { getFeaturedPosts } from '../services';
 
-
 const responsive = {
   superLargeDesktop: {
     breakpoint: { max: 4000, min: 1024 },
@@ -23,7 +22,6 @@ const responsive = {
     items: 1,
   },
 };
-
 
 const FeaturedPosts = () => {
   const [featuredPosts, setFeaturedPosts] = useState([]);
@@ -47,12 +45,11 @@ const FeaturedPosts = () => {
   const customRightArrow = (
     <div className="absolute arrow-btn right-0 py-3 cursor-pointer bg-pink-600 rounded-full">
       <svg className="h-6 w-6 text-white w-full" viewBox="0 0 24 24" stroke="currentColor">
-      <path strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+        <path strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
       </svg>
     </div>
   );
 
-  
   return (
     <div className="mb-8">
       <Carousel infinite customLeftArrow={customLeftArrow} customRightArrow={customRightArrow} responsive={responsive} itemClass="px-4">

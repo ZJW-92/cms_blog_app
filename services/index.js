@@ -4,33 +4,34 @@ const graphqlAPI = process.env.NEXT_PUBLIC_GRAPHCMS_ENDPOINT;
 
 export const getPosts = async () => {
   const query = gql`
-  query Assets {
-    postsConnection {
-      edges {
-        node {
-          author {
-            bio
-            name
-            id
-            photo {
+    query MyQuery {
+      postsConnection {
+        edges {
+          cursor
+          node {
+            author {
+              bio
+              name
+              id
+              photo {
+                url
+              }
+            }
+            createdAt
+            slug
+            title
+            excerpt
+            featuredImage {
               url
             }
-          }
-          createdAt
-          slug
-          title
-          excerpt
-          featuredImage {
-            url
-          }
-          categories {
-            name
-            slug
+            categories {
+              name
+              slug
+            }
           }
         }
       }
     }
-  }
   `;
 
   const result = await request(graphqlAPI, query);
@@ -205,9 +206,6 @@ export const getFeaturedPosts = async () => {
   return result.posts;
 };
 
-
-
-
 export const submitComment = async (obj) => {
   const result = await fetch('/api/comments', {
     method: 'POST',
@@ -219,8 +217,6 @@ export const submitComment = async (obj) => {
 
   return result.json();
 };
-
-
 
 export const getComments = async (slug) => {
   const query = gql`
