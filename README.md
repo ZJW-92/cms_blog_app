@@ -8,8 +8,8 @@ It is a Content Management System (CMS) of showcasing different kinds of Asian c
 ## Tech Stack
 - [***React.js***](https://reactjs.org)
 - [***Next.js***](https://nextjs.org)
-- [***graphQL***](https://graphql.org) : a query language for API
-- [***hyGraph***](https://hygraph.com) : GraphQL-Native Federated Content Platform. 
+- [***graphQL***](https://graphql.org): a query language for API
+- [***hyGraph***](https://hygraph.com) (previous GraphCMS) : GraphQL-Native Federated Content Platform. 
 - [***TailwindCSS***](https://tailwindcss.com)
 - [***Scss***](https://sass-lang.com)
 - [***Versel***](https://vercel.com/dashboard): cloud platform for deployment
