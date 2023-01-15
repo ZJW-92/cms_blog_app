@@ -6,8 +6,8 @@
 It is a Content Management System (CMS) of showcasing different kinds of Asian cuisine with full markdown recipes, author information and comments down blow.
 
 ## Tech Stack
-- [***React.js***](https://reactjs.org)
-- [***Next.js***](https://nextjs.org)
+- [***React.js***](https://reactjs.org): A JavaScript library for building user interfaces
+- [***Next.js***](https://nextjs.org): A React framework
 - [***graphQL***](https://graphql.org): a query language for API
 - [***hyGraph***](https://hygraph.com) (previous GraphCMS) : GraphQL-Native Federated Content Platform. 
 - [***TailwindCSS***](https://tailwindcss.com)
