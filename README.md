@@ -6,13 +6,13 @@
 It is a Content Management System (CMS) of showcasing different kinds of Asian cuisine with full markdown recipes, author information and comments down blow.
 
 ## Tech Stack
-- [***React.js***](https://reactjs.org): A JavaScript library for building user interfaces
-- [***Next.js***](https://nextjs.org): A React framework
-- [***graphQL***](https://graphql.org): a query language for API
-- [***hyGraph***](https://hygraph.com) (previous GraphCMS) : GraphQL-Native Federated Content Platform. 
-- [***TailwindCSS***](https://tailwindcss.com)
-- [***Scss***](https://sass-lang.com)
-- [***Versel***](https://vercel.com/dashboard): cloud platform for deployment
+- [***React.js***](https://reactjs.org): _A JavaScript library for building user interfaces_
+- [***Next.js***](https://nextjs.org): _A React framework_
+- [***graphQL***](https://graphql.org): _a query language for API_
+- [***hyGraph***](https://hygraph.com) (previous GraphCMS) : _GraphQL-Native Federated Content Platform_
+- [***TailwindCSS***](https://tailwindcss.com): _A utility-first framework in HTML_
+- [***Scss***](https://sass-lang.com): _A CSS extension language_
+- [***Versel***](https://vercel.com/dashboard): _A cloud platform for deployment_
 
 ## Setup
 Run `npx create-next-app -e with-tailwindcss ./` to initialize the empty folder.
