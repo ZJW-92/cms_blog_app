@@ -12,7 +12,7 @@ It is a Content Management System (CMS) of showcasing different kinds of Asian c
 - [***hyGraph***](https://hygraph.com) (previous GraphCMS) : _GraphQL-Native Federated Content Platform_
 - [***TailwindCSS***](https://tailwindcss.com): _A utility-first framework in HTML_
 - [***Scss***](https://sass-lang.com): _A CSS extension language_
-- [***Versel***](https://vercel.com/dashboard): _A cloud platform for deployment_
+- [***Vercel***](https://vercel.com/dashboard): _A cloud platform for deployment_
 
 ## Setup
 Run `npx create-next-app -e with-tailwindcss ./` to initialize the empty folder.
