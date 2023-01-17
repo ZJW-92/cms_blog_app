@@ -24,8 +24,7 @@ Run `npm run dev` to start the app.
 
 ## Issues and solutions in process of deployment:
 
-- ` Error: error:0308010C:digital envelope routines::unsupported`
- ``` 
+> - 1. Error: error:0308010C:digital envelope routines::unsupported
     at new Hash (node:internal/crypto/hash:71:19)
     at Object.createHash (node:crypto:133:10)
     at BulkUpdateDecorator.hashFactory (/vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:138971:18)
@@ -34,10 +33,7 @@ Run `npm run dev` to start the app.
     at processTicksAndRejections (node:internal/process/task_queues:82:21)
     at runNextTicks (node:internal/process/task_queues:64:3)
     at process.processImmediate (node:internal/timers:442:9) {  
- ```
+>> Solution: change node version to ` "node": "16.x"` in package.json file. 
 
-Solutions: change node version to ` "node": "16.x"` in package.json file. 
-
-- `Error: GraphQL Error (Code: 429): ` 
-
-Solutions: for many requests, delete some posts in hyGraph.
+> - 2. Error: GraphQL Error (Code: 429): 
+>> Solution: for many requests, delete some posts in hyGraph.
