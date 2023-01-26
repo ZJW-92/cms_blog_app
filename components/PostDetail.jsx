@@ -46,7 +46,7 @@ const PostDetail = ({ post }) => {
     <>
       <div className="bg-white rounded-lg lg:p-6 pb-10 mb-10">
         <div className="mb-8">
-          <img src={post.featuredImage.url} alt="" className="rounded-t-lg lg:rounded-lg" />
+          <img src={post.featuredImage.url} alt="" className="object-top h-auto w-full rounded-t-lg lg:rounded-lg" />
         </div>
         
         <div className="px-4 lg:px-0">
